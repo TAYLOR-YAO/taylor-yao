@@ -23,20 +23,20 @@ class Contact extends Component {
                         <Grid className="demo-grid-ruler">
                             <List>
                             <ListItem>
-                                <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
+                                <ListItemContent style={{fontFamily:"Anton", fontSize:"25px"}}>
                                     <i className="fa fa-map-marker-alt" aria-hidden="true"/>
                                     512 Allen Rd NE, Atlanta,GA 30324
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
+                                    <ListItemContent style={{fontFamily:"Anton", fontSize:"25px"}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
                                     +1 404 862 9078
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
+                                    <ListItemContent style={{fontFamily:"Anton", fontSize:"25px"}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/>
                                     yaotaylor@gmail.com
                                     </ListItemContent>
