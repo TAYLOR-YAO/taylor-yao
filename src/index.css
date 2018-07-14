@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #0F2027;
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+      width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body {
+      width: 100%;
+  }
+}
