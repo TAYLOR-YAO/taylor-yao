@@ -21,8 +21,8 @@ class Projects extends Component {
                     Search any type of GIF image you like.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/Giphy-Search">GitHub</a></Button>   
-                        <Button colored> <a href="https://taylor-yao.github.io/Giphy-Search/index.html">Try It</a></Button>                                          
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/Giphy-Search" target="_blank" rel="noopener noreferrer">GitHub</a></Button>   
+                        <Button colored> <a href="https://taylor-yao.github.io/Giphy-Search/index.html" target="_blank" rel="noopener noreferrer">Try It</a></Button>                                          
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -36,8 +36,8 @@ class Projects extends Component {
                     This is a Triva Game with generalized questions.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/TriviaGame">GitHub</a></Button>
-                        <Button colored> <a href="https://taylor-yao.github.io/TriviaGame/index.html">Try It</a></Button>                
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/TriviaGame" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://taylor-yao.github.io/TriviaGame/index.html" target="_blank" rel="noopener noreferrer">Try It</a></Button>                
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -51,8 +51,8 @@ class Projects extends Component {
                     This I Crystal Math based Game
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/week-4-game">GitHub</a></Button>
-                        <Button colored> <a href="https://taylor-yao.github.io/week-4-game/index.html">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/week-4-game" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://taylor-yao.github.io/week-4-game/index.html" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -66,8 +66,8 @@ class Projects extends Component {
                     Clicky Mamory Game is image click game in witch user have to remember to not click one image twice.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/react-memory-game">GitHub</a></Button>
-                        <Button colored> <a href="https://taylor-yao.github.io/react-memory-game/">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/react-memory-game" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://taylor-yao.github.io/react-memory-game/" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -89,8 +89,8 @@ class Projects extends Component {
                     This application is built to track the train schedule and frequency.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/Firebase">GitHub</a></Button>
-                        <Button colored> <a href="https://taylor-yao.github.io/Firebase/index.html">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/Firebase" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://taylor-yao.github.io/Firebase/index.html" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -104,8 +104,8 @@ class Projects extends Component {
                 This application is built to match Friends based on a suggested survy
                 </CardText>
                 <CardActions border>
-                    <Button colored> <a href="https://github.com/TAYLOR-YAO/FriendFinder">GitHub</a></Button>
-                    <Button colored> <a href="https://frind-finder-tyao.herokuapp.com/">Try It</a></Button>           
+                    <Button colored> <a href="https://github.com/TAYLOR-YAO/FriendFinder" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                    <Button colored> <a href="https://frind-finder-tyao.herokuapp.com/" target="_blank" rel="noopener noreferrer">Try It</a></Button>           
                 </CardActions>
                 <CardMenu style={{color:"#fff" }}>
                 </CardMenu>
@@ -120,8 +120,8 @@ class Projects extends Component {
                 User can create a burger and eat thier burger and if they want render the burger.
                 </CardText>
                 <CardActions border>
-                    <Button colored> <a href="https://github.com/TAYLOR-YAO/burger">GitHub</a></Button>
-                    <Button colored> <a href="https://thawing-thicket-21663.herokuapp.com/">Try It</a></Button>           
+                    <Button colored> <a href="https://github.com/TAYLOR-YAO/burger" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                    <Button colored> <a href="https://thawing-thicket-21663.herokuapp.com/" target="_blank" rel="noopener noreferrer">Try It</a></Button>           
                 </CardActions>
                 <CardMenu style={{color:"#fff" }}>
                 </CardMenu>
@@ -141,8 +141,8 @@ class Projects extends Component {
                     Liri-Node-App Is multy functional application.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/">GitHub</a></Button>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -155,8 +155,8 @@ class Projects extends Component {
                     Liri-Node-App Is a store managment back-end application that handle inventory.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/">GitHub</a></Button>
-                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/liri-node-app/" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -176,8 +176,8 @@ class Projects extends Component {
                     This application Is a shopping list application.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/JGCollinson/ShopList">GitHub</a></Button>
-                        <Button colored> <a href="https://jgcollinson.github.io/ShopList/">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/JGCollinson/ShopList" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://jgcollinson.github.io/ShopList/" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
@@ -190,8 +190,8 @@ class Projects extends Component {
                     This application is built to help help realise NGO during desaster times.
                     </CardText>
                     <CardActions border>
-                        <Button colored> <a href="https://github.com/JGCollinson/ShopList">GitHub</a></Button>
-                        <Button colored> <a href="https://jgcollinson.github.io/ShopList/">Try It</a></Button>                 
+                        <Button colored> <a href="https://github.com/JGCollinson/ShopList" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored> <a href="https://jgcollinson.github.io/ShopList/" target="_blank" rel="noopener noreferrer">Try It</a></Button>                 
                     </CardActions>
                     <CardMenu style={{color:"#fff" }}>
                     
