@@ -10,7 +10,8 @@ class Projects extends Component {
     toggleCategories(){
         if (this.state.activeTab === 0) {
             return(
-            <div className="project-grid">
+            <div className="project-grid"  style={{width: '80%', margin: 'auto'}}>
+                <Grid className="demo-grid-ruler">
 
                 {/* Project 1*/}
                 <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
@@ -71,63 +72,67 @@ class Projects extends Component {
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
                 </Card>
+                </Grid>
                 
            </div>
             ) 
         }else if(this.state.activeTab === 1){
             return(
-                <div className="project-grid">
+                <div className="project-grid"  style={{width: '80%', margin: 'auto'}}>
+                <Grid className="demo-grid-ruler">
 
-                {/* // React Project 1 */}
+                    {/* // React Project 1 */}
+                    <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
+                    <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(https://vignette.wikia.nocookie.net/scribblenauts/images/5/52/Snow_Melter.png/revision/latest?cb=20130116205324) center / cover"}}></CardTitle>
+                    <CardText>
+                    <h3>Train Activity</h3> 
+                    This application is built to track the train schedule and frequency.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored> <a href="https://github.com/TAYLOR-YAO/Firebase">GitHub</a></Button>
+                        <Button colored> <a href="https://taylor-yao.github.io/Firebase/index.html">Try It</a></Button>                 
+                    </CardActions>
+                    <CardMenu style={{color:"#fff" }}>
+                    </CardMenu>
+                </Card>
+
+                {/* // React Project 3 */}
                 <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
-                <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(https://vignette.wikia.nocookie.net/scribblenauts/images/5/52/Snow_Melter.png/revision/latest?cb=20130116205324) center / cover"}}></CardTitle>
-                <CardText>
-                <h3>Train Activity</h3> 
-                This application is built to track the train schedule and frequency.
+                <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rhqunD2Gioflxfgx/portrait-of-two-people-kissing-silhouette-white_ralsduemjg_thumbnail-full01.png) center / cover"}}></CardTitle>
+                <CardText> 
+                <h3>Friend Finder</h3> 
+                This application is built to match Friends based on a suggested survy
                 </CardText>
                 <CardActions border>
-                    <Button colored> <a href="https://github.com/TAYLOR-YAO/Firebase">GitHub</a></Button>
-                    <Button colored> <a href="https://taylor-yao.github.io/Firebase/index.html">Try It</a></Button>                 
+                    <Button colored> <a href="https://github.com/TAYLOR-YAO/FriendFinder">GitHub</a></Button>
+                    <Button colored> <a href="https://frind-finder-tyao.herokuapp.com/">Try It</a></Button>           
                 </CardActions>
                 <CardMenu style={{color:"#fff" }}>
                 </CardMenu>
-            </Card>
+                </Card>
 
-              {/* // React Project 3 */}
-            <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
-            <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rhqunD2Gioflxfgx/portrait-of-two-people-kissing-silhouette-white_ralsduemjg_thumbnail-full01.png) center / cover"}}></CardTitle>
-            <CardText> 
-            <h3>Friend Finder</h3> 
-            This application is built to match Friends based on a suggested survy
-            </CardText>
-              <CardActions border>
-                <Button colored> <a href="https://github.com/TAYLOR-YAO/FriendFinder">GitHub</a></Button>
-                <Button colored> <a href="https://frind-finder-tyao.herokuapp.com/">Try It</a></Button>           
-            </CardActions>
-            <CardMenu style={{color:"#fff" }}>
-            </CardMenu>
-            </Card>
-
-              {/* // React Project 3 */}
-            <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
-            <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(http://pluspng.com/img-png/burger-png-burger-png-hd-png-image-556.png) center / cover"}}></CardTitle>
-            <CardText>
-            <h3>Eat That Burger</h3> 
-            This application is for order place application.
-            User can create a burger and eat thier burger and if they want render the burger.
-            </CardText>
-              <CardActions border>
-                <Button colored> <a href="https://github.com/TAYLOR-YAO/burger">GitHub</a></Button>
-                <Button colored> <a href="https://thawing-thicket-21663.herokuapp.com/">Try It</a></Button>           
-            </CardActions>
-            <CardMenu style={{color:"#fff" }}>
-            </CardMenu>
-            </Card>
+                {/* // React Project 3 */}
+                <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
+                <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(http://pluspng.com/img-png/burger-png-burger-png-hd-png-image-556.png) center / cover"}}></CardTitle>
+                <CardText>
+                <h3>Eat That Burger</h3> 
+                This application is for order place application.
+                User can create a burger and eat thier burger and if they want render the burger.
+                </CardText>
+                <CardActions border>
+                    <Button colored> <a href="https://github.com/TAYLOR-YAO/burger">GitHub</a></Button>
+                    <Button colored> <a href="https://thawing-thicket-21663.herokuapp.com/">Try It</a></Button>           
+                </CardActions>
+                <CardMenu style={{color:"#fff" }}>
+                </CardMenu>
+                </Card>
+                </Grid>
             </div>
                 ) 
         }else if(this.state.activeTab === 2){
             return(
-            <div className="project-grid">
+            <div className="project-grid"  style={{width: '80%', margin: 'auto'}}>
+            <Grid className="demo-grid-ruler">
 
                 <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px"}}>
                     <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(https://www.sonolens.fr/81861/shure-casque-studio-pro-sse-srh440.jpg) center / cover"}}>Liri-Node-App</CardTitle>
@@ -156,12 +161,14 @@ class Projects extends Component {
                     <CardMenu style={{color:"#fff" }}>
                     </CardMenu>
                 </Card>
+                </Grid >
 
             </div>
                 ) 
         }else if(this.state.activeTab === 3){
             return(
-            <div className="project-grid">
+            <div className="project-grid"  style={{width: '80%', margin: 'auto'}}>
+            <Grid className="demo-grid-ruler">
                 <Card className="card" shadow={5} style={{minWidth:"450", margin:"auto", marginTop:"20px" }}>
                     <CardTitle style={{color:"#DCDCDC", height:"176px", background: "url(http://pluspng.com/img-png/grocery-items-png-online-grocery-store-online-grocery-store-in-ghazibad-online-grocery-store-ghaziabad-online-640.png) center / cover"}}></CardTitle>
                     <CardText>
@@ -190,6 +197,7 @@ class Projects extends Component {
                     
                     </CardMenu>
                 </Card>
+                </Grid>
 
             </div>
             )}

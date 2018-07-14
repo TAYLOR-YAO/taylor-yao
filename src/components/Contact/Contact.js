@@ -20,28 +20,36 @@ class Contact extends Component {
                         <h2>Contact Me</h2>
                         <hr/>
                         <div className="contact-list">
+                        <Grid className="demo-grid-ruler">
                             <List>
+                            <ListItem>
+                                <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
+                                    <i className="fa fa-map-marker-alt" aria-hidden="true"/>
+                                    512 Allen Rd NE, Atlanta,GA 30324
+                                    </ListItemContent>
+                                </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontFamily:"Anton", fontSize:"25px;"}}>
+                                    <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
                                     +1 404 862 9078
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontFamily:"Anton", fontSize:"25px;"}}>
+                                    <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/>
                                     yaotaylor@gmail.com
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontFamily:"Anton", fontSize:"25px;"}}>
+                                    <ListItemContent className="contact-list" style={{fontFamily:"Anton", fontSize:"25px"}}>
                                     <i className="fab fa-skype" aria-hidden="true"/>
                                     tayloryao25
                                     </ListItemContent>
                                 </ListItem>
                             </List>
+                            </Grid >
 
                         </div>
                         
