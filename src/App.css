@@ -2,9 +2,6 @@
     background: #0F2027;
     background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027); 
     background: linear-gradient(to left, #2C5364, #203A43, #0F2027); 
-    /* background: #2C5364 !important; */
-    /* height: 80px; */
-    /* opacity: .8; */
 }
 .home-grid{
     background: #0F2027;
@@ -67,7 +64,6 @@
     font-size: 4em;
     padding: 8px;
 }
-
 .project-grid a{
     text-decoration: none;
     color: #2C5364;

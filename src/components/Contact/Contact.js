@@ -8,11 +8,11 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                     <h2>Taylor .A. Yao</h2>
-                    <img src={require("../Images/taylor-yao.JPG")} alt="Avatar" style={{height:"150px", borderRadius:"50%"}}/>
+                    <img src={require("../Images/taylor.jpg")} alt="Avatar" style={{height:"150px", borderRadius:"50%"}}/>
                     <p style={{width:"75%", margin:"auto", paddingTop:"1em"}}>
                     I’m a full stack Web developer, Highly creative problem-solver and dependable with
                      a great knowledge of techniques and superb work ethic. I work well when collaborating 
-                     with others or independently and the ability to speak English, French and 5 native languages.
+                     with others or independently with the ability to speak English, French and 5 native languages.
 
                        </p>
                     </Cell>                

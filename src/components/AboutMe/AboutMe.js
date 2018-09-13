@@ -7,7 +7,7 @@ class AboutMe extends Component {
             <div className="about-me">
                  <Grid className="demo-grid-2">
                     <Cell col={6}>
-                    <img src={require("../Images/taylor-yao.JPG")} alt="My view"/>
+                    <img src={require("../Images/taylor.jpg")} alt="My view"/>
                     </Cell>
                     <Cell col={6}>
                     <h2 className="brand-title" style={{color:"#fff", marginLeft:"100px"}}>About Me</h2>
